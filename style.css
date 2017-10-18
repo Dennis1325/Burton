@@ -1,0 +1,59 @@
+* {
+
+}
+
+div#wrapper, footer {
+    padding: 20px;
+    margin: auto;
+    width: 1000px;
+    background-color: #FCEBEB;
+}
+
+body {
+    font-family: "Arial", "sans-serif";
+    line-height: 24px;
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+section.appel, section.fotos {
+    width: 50%;
+    float: left;
+}
+section.fotos{
+    text-align: right;
+}
+
+img.appel{
+    width: 513px;
+}
+img.fotos{
+    width: 471px;
+    margin-bottom: 10px;
+}
+article {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+article:last-child{
+    padding-right: 0px;
+}
+img.articlefoto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color:rgb(166,166,166)
+}
+footer a{
+    color: white;
+}
