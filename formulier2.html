@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>voorbeeld formulier</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h2>formulier</h2>
+</header>
+<br>
+<br>
+<form action="http://www.savatarian.com/html5/form.php" method="post">
+    <article class="Artikel1"><br>
+        <table>
+            <tr>
+                <td><label>Voornaam</label></td>
+                <td><input type="text" name="Voornaam"/></td>
+            </tr>
+            <tr>
+                <td><label>Tussenvoegsels</label></td>
+                <td><input type="text" name="Tussenvoegsels"/></td>
+            </tr>
+            <tr>
+                <td><label>Achternaam</label></td>
+                <td><input type="text" name="Achternaam"/></td>
+            </tr>
+            <tr>
+                <td>Geslacht</td>
+                <td>
+                    <input type="radio" name="geslacht" value="man"/>
+                    &nbsp;man
+                    <input type="radio" name="geslacht" value="vrouw"/>
+                    &nbsp;vrouw<br></td>
+            </tr>
+            <tr>
+                <td><label>kleur ogen</label></td>
+                <td>
+                    <select name="kleur ogen">
+                        <option> groen</option>
+                        <option> blauw</option>
+                        <option> bruin</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Geboortedatum</td>
+                <td><input type="date" name="geboortedatum"/></td>
+            </tr>
+            <tr>
+                <td><label>Omschrijving</label></td>
+                <td><textarea rows="6"></textarea></td>
+            </tr>
+        </table>
+    </article>
+    <article class="Artikel2">
+        <table>
+            <tr>
+                <td><label>eten</label></td>
+                <td></td>
+                <td><input type="checkbox" name="eten" value="patat">
+                    <span class="checkbox"></span></td>
+                <td><label>patat</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="checkbox" name="eten" value="broccoli">
+                    <span class="checkbox"></span></td>
+                <td><label>broccoli</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="checkbox" name="eten" value="hamburger">
+                    <span class="checkbox" name="eten"></span></td>
+                <td><label>hamburger</label></td>
+            </tr>
+        </table>
+    </article>
+    <div style="clear: both"></div>
+    <footer>
+            <input type="reset" name="Annuleer" value="Annuleer" class="knop1"/>
+            <input type="submit" name="knop" value="Ok" class="knop2"/>
+    </footer>
+</form>
+</body>
+</html>
